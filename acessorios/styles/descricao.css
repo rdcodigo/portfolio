@@ -1,0 +1,62 @@
+.descricao{
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    height: 800px;
+    padding: 100px;
+    padding-right: 0;
+    overflow: auto;
+    background-image: url("../imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerDescricao{
+    position: absolute;
+    right: 0;
+    max-width: 700px;
+    margin-left: 50px;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: 0 0 3em black;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.05);
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+}
+
+.headerDescricao{
+    padding: 30px;
+    font-size: 30px;
+}
+
+.sectionDescricao{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+#perfilDescricao{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+
+    float: left;
+}
+
+#paragrafoDescricao{
+    
+}
+
+.descricao::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.descricao::-webkit-scrollbar-track {
+    background: #18181A;
+}
+  
+.descricao::-webkit-scrollbar-thumb {
+    background-color: #2A2827;
+    border-radius: 20px;
+    border: 2px solid #18181A;
+}

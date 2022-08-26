@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../imagens/image-from-rawpixel-id-3301766-jpeg-1170x780.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #2A2827;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #18181A;
+    border-radius: 20px;
+    border: 5px solid #2A2827;
+}
