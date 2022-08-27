@@ -13,18 +13,18 @@
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
-#headerMenu, #sectionMenu{
+#menuHeader, #menuButtonsSection{
     display: flex;
     flex-direction: column;
 }
 
-#headerMenu{
+#menuHeader{
     font-size: 25px;
     padding: 10px;
     border-bottom: solid 1px #32312F;
 }
 
-.buttonMenu{
+.menuButton{
     color: white;
     border: none;
     min-width: 100px;

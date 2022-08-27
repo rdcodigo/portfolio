@@ -1,24 +1,24 @@
-#inicio{
+#home{
     display: hidden;
 }
 
-#sobre{
+#about{
     display: none;
 }
 
-#habilidades{
+#skills{
     display: none;
 }
 
-#portifolio{
+#portfolio{
     display: none;
 }
 
-#contatos{
+#contacts{
     display: none;
 }
 
-.descricao{
+.descriptionsContainer{
     position: relative;
 
     height: 100%;
@@ -27,12 +27,12 @@
 
     overflow: auto;
     
-    background-image: url("../imagens/fundo.jpg");
+    background-image: url("/assets/images/backGround.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.containerDescricao{
+.description{
     position: absolute;
     right: 0;
     max-width: 700px;
@@ -44,11 +44,7 @@
     backdrop-filter: blur(5px);
 }
 
-.headerDescricao{
-    font-size: 30px;
-}
-
-#perfilDescricao{
+#profilePicture{
     height: 150px;
     width: 150px;
     border-radius: 20px;
@@ -57,36 +53,36 @@
     float: left;
 }
 
-.paragrafoDescricao{
+.descriptionParagraph{
     text-indent: 50px;
     text-align: justify;
 }
 
-.habilidade{
+.skill{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#habilidadesLista{
+#skillList{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
 }
 
-.habilidadeImagem{
+.skillImage{
     height: 100px;
     width: 100px;
     float: left;
 }
 
-#inst { grid-area: inst; }
-#link { grid-area: link; }
-#twit { grid-area: twit; }
-#mail { grid-area: mail; }
-#wpp { grid-area: wpp; }
+#instagramIcon { grid-area: inst; }
+#linkedinIcon { grid-area: link; }
+#twitterIcon { grid-area: twit; }
+#gmailIcon { grid-area: mail; }
+#whatsappIcon { grid-area: wpp; }
 
-#contatosLista{
+#contactList{
     padding: 30px;
     display: grid;
     grid-template-areas:
@@ -95,20 +91,20 @@
     'wpp wpp wpp wpp wpp wpp';
     gap: 30px;
 }
-.contatoImagem{
+.contactImage{
     height: 50px;
     width: 50px;
 }
 
-.descricao::-webkit-scrollbar {
+.descriptionsContainer::-webkit-scrollbar {
     width: 8px;
 }
   
-.descricao::-webkit-scrollbar-track {
+.descriptionsContainer::-webkit-scrollbar-track {
     background: #18181A;
 }
   
-.descricao::-webkit-scrollbar-thumb {
+.descriptionsContainer::-webkit-scrollbar-thumb {
     background-color: #2A2827;
     border-radius: 20px;
     border: 2px solid #18181A;
