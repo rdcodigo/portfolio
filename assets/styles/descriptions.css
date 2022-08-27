@@ -1,5 +1,5 @@
 #home{
-    display: hidden;
+    display: flex;
 }
 
 #about{
@@ -12,10 +12,12 @@
 
 #portfolio{
     display: none;
+    flex-direction: column;
 }
 
 #contacts{
     display: none;
+    flex-direction: column;
 }
 
 .descriptionsContainer{
@@ -32,10 +34,23 @@
     background-size: cover;
 }
 
+.descriptionsContainer::-webkit-scrollbar {
+    width: 8px;
+}
+  
+.descriptionsContainer::-webkit-scrollbar-track {
+    background: #18181A;
+}
+  
+.descriptionsContainer::-webkit-scrollbar-thumb {
+    background-color: #2A2827;
+    border-radius: 20px;
+    border: 2px solid #18181A;
+}
+
 .description{
     position: absolute;
     right: 0;
-    max-width: 700px;
     margin-left: 150px;
     padding: 50px;
     border-radius: 50px 0px 0px 50px;
@@ -58,16 +73,21 @@
     text-align: justify;
 }
 
-.skill{
+#descriptionFooter{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row-reverse;
 }
 
 #skillList{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skillImage{
@@ -94,18 +114,4 @@
 .contactImage{
     height: 50px;
     width: 50px;
-}
-
-.descriptionsContainer::-webkit-scrollbar {
-    width: 8px;
-}
-  
-.descriptionsContainer::-webkit-scrollbar-track {
-    background: #18181A;
-}
-  
-.descriptionsContainer::-webkit-scrollbar-thumb {
-    background-color: #2A2827;
-    border-radius: 20px;
-    border: 2px solid #18181A;
 }
