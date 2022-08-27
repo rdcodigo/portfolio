@@ -1,10 +1,32 @@
+#inicio{
+    display: hidden;
+}
+
+#sobre{
+    display: none;
+}
+
+#habilidades{
+    display: none;
+}
+
+#portifolio{
+    display: none;
+}
+
+#contatos{
+    display: none;
+}
+
 .descricao{
-    font-family: 'Courier New', Courier, monospace;
     position: relative;
-    height: 800px;
+
+    height: 100%;
     padding: 100px;
     padding-right: 0;
+
     overflow: auto;
+    
     background-image: url("../imagens/fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,37 +36,68 @@
     position: absolute;
     right: 0;
     max-width: 700px;
-    margin-left: 50px;
+    margin-left: 150px;
+    padding: 50px;
     border-radius: 50px 0px 0px 50px;
     box-shadow: 0 0 3em black;
     color: white;
-    background-color: rgba(169, 169, 169, 0.05);
     backdrop-filter: blur(5px);
-    box-sizing: border-box;
 }
 
 .headerDescricao{
-    padding: 30px;
     font-size: 30px;
 }
 
-.sectionDescricao{
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-
 #perfilDescricao{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 20px;
     margin-right: 20px;
 
     float: left;
 }
 
-#paragrafoDescricao{
-    
+.paragrafoDescricao{
+    text-indent: 50px;
+    text-align: justify;
+}
+
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#habilidadesLista{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.habilidadeImagem{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#inst { grid-area: inst; }
+#link { grid-area: link; }
+#twit { grid-area: twit; }
+#mail { grid-area: mail; }
+#wpp { grid-area: wpp; }
+
+#contatosLista{
+    padding: 30px;
+    display: grid;
+    grid-template-areas:
+    'inst inst link link twit twit'
+    'mail mail mail mail mail mail'
+    'wpp wpp wpp wpp wpp wpp';
+    gap: 30px;
+}
+.contatoImagem{
+    height: 50px;
+    width: 50px;
 }
 
 .descricao::-webkit-scrollbar {

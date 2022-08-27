@@ -1,38 +1,27 @@
 #menu{
-    font-family: 'DynaPuff', Helvetica, sans-serif;
     display: flex;
     float: left;
     flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    height: 800px;
+    justify-content: space-evenly;
+    height: 100%;
     width: 15vw;
     min-width: 150px;
     color: white;
-    background-color: #18181A;
+    background-image: linear-gradient(to bottom right, #020605, #222425);
     box-sizing: border-box;
     border-right: solid 1px #32312F;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
-#headerMenu, #footerMenu, #sectionMenu{
+#headerMenu, #sectionMenu{
     display: flex;
     flex-direction: column;
 }
 
 #headerMenu{
-    font-size: 20px;
+    font-size: 25px;
     padding: 10px;
     border-bottom: solid 1px #32312F;
-}
-
-#footerMenu{
-    padding: 10px;
-    border-top: solid 1px #32312F;
-}
-
-#footerLista{
-    list-style: image();
 }
 
 .buttonMenu{
