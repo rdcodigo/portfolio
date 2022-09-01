@@ -1,37 +1,33 @@
 #menu{
-    display: flex;
+    display: grid;
+
+    align-items: center;
     float: left;
-    flex-direction: column;
-    justify-content: space-evenly;
     height: 100%;
     width: 15vw;
-    min-width: 150px;
-    color: white;
-    background-image: linear-gradient(to bottom right, #020605, #222425);
+    min-width: 100px;
+    font-family: 'concert one', Tahoma, sans-serif;
+    background-color: hsla(212, 64%, 33%, 0.10);
+    backdrop-filter: blur(5px);
     box-sizing: border-box;
     border-right: solid 1px #32312F;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
-#menuHeader, #menuButtonsSection{
+#logoMenu, #menuButtonsSection{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-#menuHeader{
-    font-size: 25px;
-    padding: 10px;
-    border-bottom: solid 1px #32312F;
-}
-
-.menuButton{
-    color: white;
+#logoButton{
+    background: none;
     border: none;
-    min-width: 100px;
+}
+.menuButton{
+    color: #00EDE3;
+    border: none;
     border-radius: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: auto;
     background: none;
 }
 
