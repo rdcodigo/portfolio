@@ -5,12 +5,12 @@
     float: left;
     height: 100%;
     width: 15vw;
-    min-width: 100px;
+    min-width: 180px;
     font-family: 'concert one', Tahoma, sans-serif;
     background-color: hsla(212, 64%, 33%, 0.10);
     backdrop-filter: blur(5px);
     box-sizing: border-box;
-    border-right: solid 1px #32312F;
+    border-right: solid 2px rgba(255, 255, 255, 0.2);
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 
@@ -27,7 +27,14 @@
 .menuButton{
     color: #00EDE3;
     border: none;
+    padding: 10px;
     border-radius: 10px;
     background: none;
+    font-size: 1.5rem;
+}
+
+.listButtons:hover{
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.5);
 }
 

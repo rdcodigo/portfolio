@@ -59,7 +59,7 @@
     backdrop-filter: blur(5px);
 }
 
-.descriptionHeader, .spanParagraph, .emFooter{
+.descriptionHeader, .spanParagraph, .skill{
     color: #00EDE3;
 }
 
@@ -76,7 +76,7 @@
     font-family: 'concert one', Tahoma, sans-serif;
 }
 
-.descriptionParagraph{
+.descriptionParagraph, #descriptionFooter{
     text-indent: 50px;
     text-align: justify;
     font-family: 'Verdana', Tahoma, sans-serif;
