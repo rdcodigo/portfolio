@@ -1,6 +1,7 @@
 #menu{
     display: grid;
-
+    position: relative;
+    left: -100%;
     align-items: center;
     float: left;
     height: 100%;

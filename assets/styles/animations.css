@@ -15,3 +15,15 @@
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
+
+@keyframes showMenu {
+    from {left: -100%;}
+    to {left: 0;}
+}
+
+#menu{
+    animation-name: showMenu;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
