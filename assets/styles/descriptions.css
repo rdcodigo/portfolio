@@ -18,11 +18,6 @@
     flex-direction: column;
 }
 
-#contacts{
-    display: none;
-    flex-direction: column;
-}
-
 .descriptionsContainer{
     position: relative;
     height: 100%;
@@ -85,6 +80,7 @@
 #descriptionFooter{
     display: flex;
     flex-direction: row-reverse;
+    font-size: 0.7rem;
 }
 
 #skillList{
@@ -103,24 +99,4 @@
     height: 100px;
     width: 100px;
     float: left;
-}
-
-#instagramIcon { grid-area: inst; }
-#linkedinIcon { grid-area: link; }
-#twitterIcon { grid-area: twit; }
-#gmailIcon { grid-area: mail; }
-#whatsappIcon { grid-area: wpp; }
-
-#contactList{
-    padding: 30px;
-    display: grid;
-    grid-template-areas:
-    'inst inst link link twit twit'
-    'mail mail mail mail mail mail'
-    'wpp wpp wpp wpp wpp wpp';
-    gap: 30px;
-}
-.contactImage{
-    height: 50px;
-    width: 50px;
 }
