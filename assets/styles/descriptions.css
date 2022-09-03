@@ -50,7 +50,7 @@
 .description{
     position: relative;
     right: -100%;
-
+    display: flex;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(5px);
@@ -59,12 +59,32 @@
     color: white;
 }
 
-.descriptionHeader, .spanParagraph, .skill{
+.descriptionHeader, .textLogoColor, .skill{
     color: #00EDE3;
 }
 
 .descriptionHeader{
     margin-bottom: 30px;
+}
+
+
+#contactList{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-self:center ;
+    justify-content:space-evenly;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactImage{
+    height: 50px;
+    width: 50px;
 }
 
 #profilePicture{

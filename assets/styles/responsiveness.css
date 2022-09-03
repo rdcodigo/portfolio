@@ -38,15 +38,6 @@
         height: 180px;
         min-width: 360px;
     }
-
-    #contactList{
-        width: 150px;
-    }
-
-    .contactImage{
-        height: 35px;
-        width: 35px;
-    }
 }
 
 @media (max-width: 850px) {
@@ -100,15 +91,6 @@
         height: 160px;
         min-width: 320px;
     }
-
-    #contactList{
-        width: 100px;
-    }
-
-    .contactImage{
-        height: 25px;
-        width: 25px;
-    }
 }
 
 @media (max-width: 700px) {
@@ -143,17 +125,6 @@
     #footer{
         display: hidden;
         justify-content: space-evenly;
-    }
-
-    #contactList{
-        width: 50px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contactImage{
-        height: 20px;
-        width: 20px;
     }
 
     .skillImage{
