@@ -1,0 +1,152 @@
+@media (max-width: 950px) {
+
+    #menu{
+        min-width: 100px;
+    }
+    
+    .listButtons{
+        font-size: 0.9rem;
+    }
+
+    .listButtons:hover{
+        font-size: 1rem;
+    }
+    
+    .logoMenuImage{
+        height: 90px;
+        width: 90px;
+    }
+
+    .description, .descriptionsContainer{
+        font-size: 0.9rem;
+    }
+
+    .skillImage{
+        height: 90px;
+        width: 90px;
+    }
+
+    .footerText{
+        font-size: 0.6rem;
+    }
+
+    .portfolioItemImage{
+        height: 180px;
+        min-width: 270px;
+    }
+
+    #contactList{
+        width: 150px;
+    }
+
+    .contactImage{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #menu{
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-items: center;
+        flex-direction: row;
+        border-bottom: solid 1px #007e77;
+        padding: 10px;
+        background-color: #07121f;
+        z-index: 1;
+    }
+
+    .logoMenuImage{
+        height: 50px;
+        width: 50px;
+    }
+
+    .description{
+        font-size: 0.8rem;
+    }
+
+    .descriptionsContainer{
+        padding-left: 50px;
+        font-size: 0.8rem;
+    }
+
+    #logoMenu, #menuButtonsSection{
+        flex-direction: row;
+    }
+
+    .skillImage{
+        height: 80px;
+        width: 80px;
+    }
+
+    .footerText{
+        font-size: 0.49rem;
+    }
+
+    .portfolioItemImage{
+        height: 160px;
+        min-width: 240px;
+    }
+
+    #contactList{
+        width: 100px;
+    }
+
+    .contactImage{
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .portfolioItem{
+        display: block;
+    }
+
+    .portfolioItemImage{
+        margin-left: 0;
+    }
+
+    .portfolioItemImage{
+        height: 160px;
+        max-width: 240px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .descriptionsContainer{
+        padding-left: 0;
+    }
+
+    .portfolioItemImage{
+        min-width: 0;
+    }
+
+    #footer{
+        display: hidden;
+        justify-content: space-evenly;
+    }
+
+    #contactList{
+        width: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactImage{
+        height: 20px;
+        width: 20px;
+    }
+
+    .skillImage{
+        height: 60px;
+        width: 60px;
+    }
+}
+
