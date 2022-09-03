@@ -20,12 +20,3 @@
     font-size: 0.7rem;
     font-style: italic;
 }
-
-.footerTextReference{
-    text-decoration: none;
-    color: #007e77;
-}
-
-.footerTextReference:hover{
-    color: #00EDE3; 
-}

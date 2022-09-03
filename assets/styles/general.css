@@ -26,3 +26,12 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 5px solid #2A2827;
 }
+
+.externalLinks{
+    text-decoration: none;
+    color: #00EDE3;
+}
+
+.externalLinks:hover{
+    color: #007e77; 
+}
