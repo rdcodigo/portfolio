@@ -102,14 +102,17 @@
 
 .portfolioItem{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
+    margin-bottom: 100px;
+    border-bottom: solid 2px #007e77;
 }
 
 .portfolioItemImage{
     height: 200px;
-    min-width: 300px;
-    background-color: hsla(213, 63%, 7%, 0.7);
-    border-radius: 10px;
+    min-width: 400px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     margin-left: 20px;
     text-align: center;
 }
