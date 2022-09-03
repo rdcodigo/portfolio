@@ -1,8 +1,7 @@
 .listButtons:hover{
     font-size: 2rem;
-    background: rgba(0, 0, 0, 0.5);
     transition-property: all;
-    transition-duration: 500ms;
+    transition-duration: 100ms;
 }
 
 @keyframes showDescription {
