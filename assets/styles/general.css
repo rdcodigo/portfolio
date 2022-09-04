@@ -27,6 +27,10 @@ body::-webkit-scrollbar-thumb {
     border: 5px solid #2A2827;
 }
 
+.textLogoColor{
+    color: #00EDE3;
+}
+
 .externalLinks{
     text-decoration: none;
     color: #00EDE3;

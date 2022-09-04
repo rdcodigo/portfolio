@@ -107,6 +107,11 @@
         max-width: 320px;
         margin: auto;
     }
+
+    .descriptionHeader{
+        margin: auto;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -130,6 +135,10 @@
     .skillImage{
         height: 60px;
         width: 60px;
+    }
+
+    .descriptionTitle{
+        text-align: center;
     }
 }
 

@@ -25,6 +25,7 @@
     padding-right: 0;
     overflow-y: auto;
     overflow-x: hidden;
+    font-family: 'concert one', Tahoma, sans-serif;
 }
 
 .descriptionsContainer::-webkit-scrollbar {
@@ -40,6 +41,7 @@
     border-radius: 20px;
     border: 2px solid #18181A;
 }
+
 
 .descriptionContent{
     display: flex;
@@ -59,14 +61,22 @@
     color: white;
 }
 
-.descriptionHeader, .textLogoColor, .skill{
-    color: #00EDE3;
-}
-
 .descriptionHeader{
     margin-bottom: 30px;
+    margin-left: 100px;
 }
 
+.descriptionParagraph, #descriptionFooter{
+    text-indent: 50px;
+    text-align: justify;
+    font-family: 'Verdana', Tahoma, sans-serif;
+}
+
+#descriptionFooter{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 0.7rem;
+}
 
 #contactList{
     width: 300px;
@@ -92,26 +102,14 @@
     margin-bottom: 50px;
 }
 
-.descriptionsContainer{
-    font-family: 'concert one', Tahoma, sans-serif;
+.skillList{
+    display: flex
 }
 
-.descriptionParagraph, #descriptionFooter{
-    text-indent: 50px;
-    text-align: justify;
-    font-family: 'Verdana', Tahoma, sans-serif;
-}
-
-#descriptionFooter{
+#advancedSkillsList, #intermediateSkillsList, #basicSkillsList{
     display: flex;
-    flex-direction: row-reverse;
-    font-size: 0.7rem;
-}
-
-#skillList{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
+    justify-content: space-around;
+    padding: 30px;
 }
 
 .skill{
