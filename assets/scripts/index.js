@@ -53,13 +53,16 @@ function hidden(descId){
 var showMenu = false;
 
 function changeMenuDisplay(){
-    if (showMenu){
-        let menuBar = document.getElementById("menuButtonsSection");
-        menuBar.style.display = "none";
-        showMenu = false;
-    }else{
-        let menuBar = document.getElementById("menuButtonsSection");
-        menuBar.style.display = "flex";
-        showMenu = true;
+    let windowWidth = window.screen.width;
+    if(windowWidth < 850){
+        if (showMenu){
+            let menuBar = document.getElementById("menuButtonsSection");
+            menuBar.style.display = "none";
+            showMenu = false;
+        }else{
+            let menuBar = document.getElementById("menuButtonsSection");
+            menuBar.style.display = "flex";
+            showMenu = true;
+        }
     }
 }
