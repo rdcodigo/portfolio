@@ -23,13 +23,13 @@
         <div id="logoMenu">
             <a href=""><img id="0" class="logoMenuImage"src="./assets/images/logo.png"/></a>
         </div>
-        <input type="checkbox" id="expandMenuCheck">
-        <label for="expandMenuCheck"><img id="expandMenuButton" onclick="" src="./assets/images/navBarButton.png" alt=""></label>
+
+        <img id="expandMenuButton" onclick="changeMenuDisplay()" src="./assets/images/navBarButton.png" alt="">
         <nav id="menuButtonsSection">
-            <button id="0" class="menuButton listButtons">Início</button>
-            <button id="1" class="menuButton listButtons">Sobre</button>
-            <button id="2" class="menuButton listButtons">Habilidades</button>
-            <button id="3" class="menuButton listButtons">Portfólio</button>
+            <button id="0" onclick="changeMenuDisplay()" class="menuButton listButtons">Início</button>
+            <button id="1" onclick="changeMenuDisplay()" class="menuButton listButtons">Sobre</button>
+            <button id="2" onclick="changeMenuDisplay()" class="menuButton listButtons">Habilidades</button>
+            <button id="3" onclick="changeMenuDisplay()" class="menuButton listButtons">Portfólio</button>
         </nav>
     </header>
 

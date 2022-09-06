@@ -50,30 +50,16 @@ function hidden(descId){
     )
 }
 
-function toIconLinkedinHover(){
-    let linkedinIcon = document.getElementById("linkedinIcon");
-    linkedinIcon.innerHTML = `
-    <a onmouseout="toIconLinkedin()" href="https://www.linkedin.com/in/diego-rodrigues-531170243/" target="_blank"><img class="contactImage" src="./assets/images/contacts/linkedinHover.png" alt=""></a>
-    `;
-}
+var showMenu = false;
 
-function toIconLinkedin(){
-    let linkedinIcon = document.getElementById("linkedinIcon");
-    linkedinIcon.innerHTML = `
-    <a onmouseover="toIconLinkedinHover()" href=""><img class="contactImage" src="./assets/images/contacts/linkedin.png" alt=""></a>
-    `;
-}
-
-function toIconGitHubHover(){
-    let gitHubIcon = document.getElementById("gitHubIcon");
-    gitHubIcon.innerHTML = `
-    <a onmouseout="toIconGitHub()" href="https://github.com/rdcodigo" target="_blank"><img class="contactImage" src="./assets/images/contacts/githubHover.png" alt=""></a>
-    `;
-}
-
-function toIconGitHub(){
-    let gitHubIcon = document.getElementById("gitHubIcon");
-    gitHubIcon.innerHTML = `
-    <a onmouseover="toIconGitHubHover()" href=""><img class="contactImage" src="./assets/images/contacts/github.png" alt=""></a>
-    `;
+function changeMenuDisplay(){
+    if (showMenu){
+        let menuBar = document.getElementById("menuButtonsSection");
+        menuBar.style.display = "none";
+        showMenu = false;
+    }else{
+        let menuBar = document.getElementById("menuButtonsSection");
+        menuBar.style.display = "flex";
+        showMenu = true;
+    }
 }
