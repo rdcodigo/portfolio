@@ -102,14 +102,12 @@
     margin-bottom: 50px;
 }
 
-.skillList{
-    display: flex
-}
-
 #advancedSkillsList, #intermediateSkillsList, #basicSkillsList{
     display: flex;
     justify-content: space-around;
     padding: 30px;
+    margin-bottom: 50px;
+    border-bottom: solid 2px #007e77;
 }
 
 .skill{

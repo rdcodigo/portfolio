@@ -1,45 +1,3 @@
-@media (max-width: 950px) {
-
-    #menu{
-        min-width: 100px;
-    }
-    
-    .listButtons{
-        font-size: 0.9rem;
-    }
-
-    .listButtons:hover{
-        font-size: 1rem;
-    }
-    
-    .logoMenuImage{
-        height: 90px;
-        width: 90px;
-    }
-
-    .description, .descriptionsContainer{
-        font-size: 0.9rem;
-    }
-
-    #profilePicture{
-        width: 40%;
-    }
-
-    .skillImage{
-        height: 90px;
-        width: 90px;
-    }
-
-    .footerText{
-        font-size: 0.6rem;
-    }
-    
-    .portfolioItemImage{
-        height: 180px;
-        min-width: 360px;
-    }
-}
-
 @media (max-width: 850px) {
 
     #menu{
@@ -56,26 +14,48 @@
         z-index: 1;
     }
 
+    
     .logoMenuImage{
         height: 50px;
         width: 50px;
     }
+    
+    #expandMenuButton{
+        display: flex;
+        height: 70px;
+    }
+
+    #menuButtonsSection{
+        display: none;
+        width: 100%;
+        
+        overflow: auto;
+        background-color: hsla(213, 63%, 7%, 0.5);
+        backdrop-filter: blur(5px);
+        position: absolute;
+        right: 0;
+        top: 70px;
+    }
 
     .description{
         font-size: 0.8rem;
+    }
+    .descriptionsContainer{
+        padding-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .descriptionHeader{
+        margin-left: 0;
+        align-self: center;
     }
 
     #profilePicture{
         width: 50%;
     }
 
-    .descriptionsContainer{
-        padding-left: 50px;
-        font-size: 0.8rem;
-    }
-
-    #logoMenu, #menuButtonsSection{
-        flex-direction: row;
+    .descriptionTitle{
+        text-align: center;
     }
 
     .skillImage{
@@ -93,34 +73,15 @@
     }
 }
 
-@media (max-width: 700px) {
-    #profilePicture{
-        width: 60%;
-    }
-
-    .portfolioItemImage{
-        margin-left: 0;
-    }
-
-    .portfolioItemImage{
-        height: 160px;
-        max-width: 320px;
-        margin: auto;
-    }
-
-    .descriptionHeader{
-        margin: auto;
-        margin-bottom: 30px;
-    }
-}
-
 @media (max-width: 450px) {
-    .descriptionsContainer{
-        padding-left: 5px;
-    }
 
     #profilePicture{
         width: 70%;
+    }
+    
+    .skillImage{
+        height: 60px;
+        width: 60px;
     }
 
     .portfolioItemImage{
@@ -130,15 +91,6 @@
     #footer{
         display: hidden;
         justify-content: space-evenly;
-    }
-
-    .skillImage{
-        height: 60px;
-        width: 60px;
-    }
-
-    .descriptionTitle{
-        text-align: center;
     }
 }
 

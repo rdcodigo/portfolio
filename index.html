@@ -20,21 +20,21 @@
 </head> 
 <body>
     <header id="menu">
-        <section id="logoMenu">
-            <button id="logoButton"><img id="0" class="menuButton logoMenuImage"src="./assets/images/logo.png"/></button>
-        </section>
-        <section id="menuButtonsSection">
+        <div id="logoMenu">
+            <a href=""><img id="0" class="logoMenuImage"src="./assets/images/logo.png"/></a>
+        </div>
+        <input type="checkbox" id="expandMenuCheck">
+        <label for="expandMenuCheck"><img id="expandMenuButton" onclick="" src="./assets/images/navBarButton.png" alt=""></label>
+        <nav id="menuButtonsSection">
+            <button id="0" class="menuButton listButtons">Início</button>
             <button id="1" class="menuButton listButtons">Sobre</button>
-            <br><br>
             <button id="2" class="menuButton listButtons">Habilidades</button>
-            <br><br>
             <button id="3" class="menuButton listButtons">Portfólio</button>
-            <br><br>
-        </section>
+        </nav>
     </header>
 
-    <section class="descriptionsContainer">
-        <div id="home" class="description">
+    <div class="descriptionsContainer">
+        <section id="home" class="description">
             <header class="descriptionHeader">
                     <h1 class="textLogoColor">
                         Bem vindo!
@@ -56,9 +56,9 @@
             <footer id="descriptionFooter">
                 <em> "Há muito o que não sei, mas não há nada que não possa aprender."</em>
             </footer>
-        </div>
+        </section>
 
-        <div id="about" class="description">
+        <section id="about" class="description">
             <header class="descriptionHeader">
                 <h1 class="textLogoColor">
                     Sobre mim:
@@ -70,16 +70,15 @@
                     Após quase dez anos de serviço público na área de segurança, dividios entre dois estados, resolvi migrar para uma área menos engessada que permitisse melhor desenvolvimento pessoal. Por ter facilidade em disciplinas exatas e na resolução de problemas lógicos, no início de 2020, ingressei no curso de <span class="textLogoColor">Análise e Desenvolvimento de Sistemas</span> da <a class="externalLinks" href="https://www.unicesumar.edu.br/home/">UNICESUMAR</a> e descobri na programação todas as ferramentas necessárias para expandir minhas ideias. Durante a minha graduação, além de estudar sobre algorítmos, lógica de programação e aprender algumas linguagens, também tive contato com metodologias para gestão de projetos como <span class="textLogoColor">PMBOK</span> e <span class="textLogoColor">AGILE</span>. Após a conclusão da faculdade, continuo expandindo meus conhecimentos em diversas tecnologias, tanto <span class="textLogoColor">Front-end</span> como <span class="textLogoColor">Back-end</span>, com cursos pagos e materiais gratuitos online.
                 </p>
             </section>
-        </div>
+        </section>
 
-        <div id="skills" class="description">
+        <section id="skills" class="description">
             <header class="descriptionHeader">
                 <h1 class="textLogoColor">
                     Minhas habilidades:
                 </h1>
             </header>
             <section class="descriptionContent">
-                <div id="skillsList">
                     <h5 class="descriptionTitle">
                         Avançado:
                     </h5>
@@ -122,11 +121,10 @@
                             <img class="skillImage" src="./assets/images/techs/mongo.png" alt=""> <span class="textLogoColor">Mongo DB</span>
                         </div>
                     </section>
-                </div>
             </section>
-        </div>
+        </section>
 
-        <div id="portfolio" class="description">
+        <section id="portfolio" class="description">
             <header class="descriptionHeader">
                 <h1 class="textLogoColor">
                     Meus projetos:
@@ -154,8 +152,8 @@
                 </div>
                 
             </section>
-        </div>
-    </section>
+        </section>
+    </div>
     <footer id="footer">
         <div class="footerText">
             <p>

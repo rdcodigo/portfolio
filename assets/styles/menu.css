@@ -6,7 +6,7 @@
     left: -100%;
     align-items: center;
     float: left;
-    height: 100%;
+    height: calc(100% - 80px);
     min-width: 180px;
     font-family: 'concert one', Tahoma, sans-serif;
     box-sizing: border-box;
@@ -18,10 +18,20 @@
     align-items: center;
 }
 
-#logoButton{
-    background: none;
-    border: none;
+#expandMenuCheck{
+    display: none;
 }
+
+#expandMenuButton{
+    cursor: pointer;
+    display: none;
+    padding: 20px;
+}
+
+#expandMenuCheck:checked ~ #menuButtonsSection{
+    display: flex;
+}
+
 .menuButton{
     color: #00EDE3;
     border: none;
