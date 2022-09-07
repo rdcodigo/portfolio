@@ -53,8 +53,8 @@ function hidden(descId){
 var showMenu = false;
 
 function changeMenuDisplay(){
-    let windowWidth = window.screen.width;
-    if(windowWidth < 850){
+    let displayExpandMenu = window.getComputedStyle(document.getElementById("expandMenuButton")).display;
+    if(displayExpandMenu == "flex"){
         if (showMenu){
             let menuBar = document.getElementById("menuButtonsSection");
             menuBar.style.display = "none";

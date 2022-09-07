@@ -1,12 +1,12 @@
 #menu{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     position: relative;
     left: -100%;
     align-items: center;
     float: left;
-    height: calc(100% - 80px);
+    height: calc(100vh - 80px);
     min-width: 180px;
     font-family: 'concert one', Tahoma, sans-serif;
     box-sizing: border-box;
@@ -18,21 +18,14 @@
     align-items: center;
 }
 
-#expandMenuCheck{
-    display: none;
-}
-
 #expandMenuButton{
     cursor: pointer;
     display: none;
     padding: 20px;
 }
 
-#expandMenuCheck:checked ~ #menuButtonsSection{
-    display: flex;
-}
-
 .menuButton{
+    cursor: pointer;
     color: #00EDE3;
     border: none;
     padding: 10px;

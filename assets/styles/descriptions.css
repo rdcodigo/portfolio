@@ -42,7 +42,6 @@
     border: 2px solid #18181A;
 }
 
-
 .descriptionContent{
     display: flex;
     flex-direction: column;
@@ -62,8 +61,12 @@
 }
 
 .descriptionHeader{
-    margin-bottom: 30px;
-    margin-left: 100px;
+    margin-bottom: 50px;
+    text-indent: 50px;
+}
+
+.descriptionTitle{
+    padding: 30px;
 }
 
 .descriptionParagraph, #descriptionFooter{
