@@ -5,12 +5,7 @@
     padding: 0;
 }
 
-body, html{
-    position: relative;
-}
-
 body{
-    height: 100vh;
     background-image: url("../images/backGround.jpg");
     background-repeat: no-repeat;
     background-size: cover;
